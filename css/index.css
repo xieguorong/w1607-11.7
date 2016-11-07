@@ -1,0 +1,178 @@
+ul,li,body{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.top{
+    width:1308px;
+    height:40px;
+    background:#444;
+}
+.nav{
+    width:1308px;
+    height:540px;
+    background:#333333;
+}
+.ul{
+    width:1100px;
+    height:44px;
+    margin:0 auto;
+    text-align:justify;
+
+}
+.li{
+    width:40px;
+    height:44px;
+    position: relative;
+    z-index: 1;
+    vertical-align: top;
+    float:left;
+    margin-right:60px
+
+}
+
+.wenzi{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color:white;
+    font-size:16px;
+    text-align: center;
+    line-height:44px;
+
+}
+.tu{
+    background-repeat: no-repeat;
+    background-size: 20px 44px;
+    background-image: url("../images/globalnav/apple/image_large.svg");
+    background-position: center center;
+    width: 20px;
+}
+.img{
+    width:100%;
+    height:496px;
+    position:relative;
+}
+.img img{
+    width:100%;
+    height:100%;
+}
+.content{
+    width:1308px;
+    height:204px;
+}
+.content ul{
+    height:100%;
+    width:100%
+}
+.cul{
+    width:25%;
+    height:100%;
+    border-top:2px solid white;
+    border-right:2px solid white;
+    box-sizing: border-box;
+    float:left
+}
+.cul a{
+    display: block;
+    background-position: center center;
+    height: 200px;
+}
+.footer{
+    width:1308px;
+    height:404px;
+
+}
+.fcontent{
+    width:1024px;
+    height:384px;
+    margin:0 auto
+}
+.ftop{
+    border-bottom: 1px solid #e3e3e3;
+    color: #999;
+    padding: 16px 0 11px;
+}
+.ftop li {
+    font-size: 12px;
+    line-height: 1.33333;
+    font-weight: 400;
+    letter-spacing: normal;
+    font-family: 'HanHei SC', 'PingFang SC', 'Helvetica Neue', 'Helvetica', 'STHeitiSC-Light', 'Arial', sans-serif;
+}
+.fw {
+    width:980px;
+    height:240px;
+    font-size: 12px;
+    line-height: 1.66667;
+    font-weight: 400;
+    letter-spacing: normal;
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+    margin:0 auto;
+}
+.footzi{
+position: relative;
+z-index: 1;
+min-height: 2px;
+margin: 0;
+padding: 0;
+float: left;
+width:20%
+}
+.footzi lable{
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    text-align: inherit;
+}
+.footzi lable h3{
+    font-size: 12px;
+    line-height: 1.66667;
+    font-weight: 600;
+    letter-spacing: normal;
+    color: #333;
+    margin: 0;
+}
+.xuan{
+    margin-right: 20px;
+    list-style: none;
+    padding: 0;
+}
+.xuan li{
+    display: block;
+    pointer-events: auto;
+}
+.xuan li a{
+    color: #666;
+    text-decoration: none;
+}
+.zi{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    min-height: 2px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    pointer-events: none;
+}
+.ff{
+    color: #999;
+    padding: 20px 25px 24px;
+}
+.ff1{
+    border-bottom: 1px solid #e3e3e3;
+    max-height: 9999px;
+    margin-bottom: 6px;
+    padding-bottom: 5px;
+    font-size:5px;
+    color:#999
+}
+.ff1 span a{
+    color: #0070c9;
+    text-decoration: none;
+
+}
